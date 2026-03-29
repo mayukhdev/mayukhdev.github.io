@@ -1,341 +1,1309 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<title>Mayukh Dev</title>
-		<meta name="description" content="Mayukh Dev - Tech Lead at Knowlarity - A GupShup Entity. Specializing in voice communication applications, SIP, WebRTC, and cloud solutions.">
-                <meta name="keywords" content="Mayukh, Mayukh Dev, Tech Lead, Voice Communication, SIP, WebRTC, FreeSWITCH, Janus Gateway, RabbitMQ, Kafka, Knowlarity">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayukh Dev — Technology Lead & Voice Communication Expert</title>
+  <meta name="description"
+    content="Technology Lead at Knowlarity specializing in voice communication applications, SIP, WebRTC, and cloud architecture. 8+ years building scalable communication solutions.">
+  <meta name="keywords"
+    content="Mayukh Dev, Technology Lead, Voice Communication, SIP, WebRTC, FreeSWITCH, Janus Gateway, Knowlarity">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-gem"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Mayukh Dev</h1>
-								<p>Tech Lead at <a href="https://www.knowlarity.com/">Knowlarity - A GupShup Entity</a> 
-									<br />
-									Find Me <a href="#contact">Here</a>
-								</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+  <!-- Fonts: Syne (distinctive geometric display) + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
 
-				<!-- Main -->
-					<div id="main">
+  <style>
+    /* ===== VARIABLES ===== */
+    :root {
+      --bg: #0B0B0E;
+      --bg-card: #111116;
+      --bg-hover: #18181F;
+      --amber: #E8A045;
+      --amber-dim: rgba(232, 160, 69, 0.15);
+      --text: #EDE9E0;
+      --text-muted: #6B6B7A;
+      --text-subtle: #2E2E3A;
+      --border: #1E1E28;
+      --font-d: 'Syne', sans-serif;
+      --font-m: 'JetBrains Mono', monospace;
+    }
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/me1.jpg" alt="" /></span>
-								<p>Hi,</p> 
-								<p>I am a dev, Mayukh Dev &#128512;</p>
-								<p>Engineer with over seven years of experience in the voice communication industry, I thrive in dynamic, startup environments where innovation and responsibility drive the workforce. My diverse roles have allowed me to cultivate a deep passion for creating cutting-edge products.</p>
-								<p>Currently working as a Tech Lead, I drive my team to build new products, ensuring delivery through well-built pipelines and architecting solutions on the cloud. Specializing in voice communication applications, I focus on leveraging SIP and WebRTC protocols to deliver exceptional solutions.</p>
-								<p>I work closely with open source technologies such as FreeSWITCH and Janus Gateway, and I excel at scaling with large queuing solutions using RabbitMQ and Kafka. My journey has been defined by a commitment to excellence and a dedication to pushing the boundaries of what's possible in voice communication technology.</p>
-							</article>
+    /* ===== RESET ===== */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/logo-gupshup.svg" alt="" /></span>
-								Currently working as a Tech Lead, building voice based apps and doing a lot of POC. That's the goto work as of now.
-								<ul>
-								<li>Designing and planning various communications apps using open source projects like Freeswitch, kamailio, rtp-engine, Janus, etc.</li>
-								<li>Have led my team build Call Center and webrtc based products.</li>
-								<li>Building micro service apps with kubernetes.</li>
-								</ul>
-							</article>
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/mayukhdev/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.facebook.com/mayukhdev" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/mayukhdev/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/mayukhdev" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-d);
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+    img {
+      display: block;
+      max-width: 100%;
+    }
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+    /* ===== GRAIN OVERLAY ===== */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.025;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+    }
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+    /* ===== NAVIGATION ===== */
+    #nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      padding: 1.5rem 3.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.4s, border-color 0.4s;
+      border-bottom: 1px solid transparent;
+    }
 
-								<section>
-									<h3 class="major">Lists</h3>
+    #nav.scrolled {
+      background: rgba(11, 11, 14, 0.94);
+      backdrop-filter: blur(16px);
+      border-color: var(--border);
+    }
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+    .nav-logo {
+      font-family: var(--font-m);
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+    }
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+    .nav-logo strong {
+      color: var(--amber);
+      font-weight: 500;
+    }
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
+    .nav-links {
+      display: flex;
+      gap: 3rem;
+      list-style: none;
+    }
 
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
+    .nav-links a {
+      font-family: var(--font-m);
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      transition: color 0.2s;
+      position: relative;
+    }
 
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--amber);
+      transition: width 0.3s;
+    }
 
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
+    .nav-links a:hover {
+      color: var(--text);
+    }
 
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
+    .nav-links a:hover::after {
+      width: 100%;
+    }
 
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
+    /* ===== HERO ===== */
+    #hero {
+      min-height: 100svh;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      align-items: center;
+      padding: 9rem 3.5rem 5rem;
+      gap: 4rem;
+      position: relative;
+      border-bottom: 1px solid var(--border);
+    }
 
-							</article>
+    /* subtle grid lines in background */
+    #hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(var(--border) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border) 1px, transparent 1px);
+      background-size: 80px 80px;
+      mask-image: radial-gradient(ellipse 90% 90% at 70% 50%, black 30%, transparent 80%);
+      opacity: 0.5;
+      pointer-events: none;
+    }
 
-					</div>
+    .hero-left {
+      z-index: 1;
+    }
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Mayukh Dev.</p>
-					</footer>
+    .hero-eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.75rem;
+    }
 
-			</div>
+    .hero-eyebrow-line {
+      width: 2.5rem;
+      height: 1px;
+      background: var(--amber);
+      flex-shrink: 0;
+    }
 
-		<!-- BG -->
-			<div id="bg"></div>
+    .hero-eyebrow-text {
+      font-family: var(--font-m);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--amber);
+    }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    .hero-name {
+      font-size: clamp(4rem, 9vw, 8.5rem);
+      font-weight: 800;
+      line-height: 0.88;
+      letter-spacing: -0.04em;
+      margin-bottom: 1.75rem;
+    }
 
-	</body>
+    .hero-name .accent {
+      color: var(--amber);
+    }
+
+    .hero-desc {
+      font-family: var(--font-m);
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      max-width: 44ch;
+      line-height: 1.9;
+      margin-bottom: 3rem;
+    }
+
+    .hero-desc em {
+      color: var(--text);
+      font-style: normal;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      font-family: var(--font-m);
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      padding: 0.9rem 2.25rem;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s, background 0.2s, color 0.2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-fill {
+      background: var(--amber);
+      color: var(--bg);
+    }
+
+    .btn-fill:hover {
+      background: var(--text);
+      box-shadow: 0 12px 32px rgba(232, 160, 69, 0.25);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+
+    .btn-ghost:hover {
+      color: var(--text);
+      border-color: var(--text-muted);
+    }
+
+    /* Hero Right — Waveform */
+    .hero-right {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 1.5rem;
+    }
+
+    .hero-photo-row {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      width: 100%;
+    }
+
+    .hero-photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--border);
+      flex-shrink: 0;
+      filter: grayscale(20%);
+      object-position: top;
+    }
+
+    .hero-photo-row canvas {
+      flex: 1;
+      min-width: 0;
+    }
+
+    #waveform-canvas {
+      width: 100%;
+      display: block;
+      border: 1px solid var(--border);
+    }
+
+    .hero-terminal {
+      width: 100%;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      padding: 1.25rem 1.5rem;
+    }
+
+    .terminal-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .terminal-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .terminal-dot:nth-child(1) {
+      background: #FF5F57;
+    }
+
+    .terminal-dot:nth-child(2) {
+      background: #FFBD2E;
+    }
+
+    .terminal-dot:nth-child(3) {
+      background: #28C840;
+    }
+
+    .terminal-title {
+      font-family: var(--font-m);
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      margin-left: auto;
+      letter-spacing: 0.1em;
+    }
+
+    .terminal-line {
+      font-family: var(--font-m);
+      font-size: 0.7rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+    }
+
+    .terminal-line .prompt {
+      color: var(--amber);
+    }
+
+    .terminal-line .cmd {
+      color: var(--text);
+    }
+
+    .terminal-line .out {
+      color: #7AB6A0;
+    }
+
+    .terminal-cursor {
+      display: inline-block;
+      width: 7px;
+      height: 13px;
+      background: var(--amber);
+      vertical-align: text-bottom;
+      animation: blink 1.1s step-end infinite;
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+    }
+
+    /* ===== STATS STRIP ===== */
+    .stats-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .stat-item {
+      padding: 2.25rem 3.5rem;
+      border-right: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-item:last-child {
+      border-right: none;
+    }
+
+    .stat-item::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--amber);
+      transition: width 0.5s ease;
+    }
+
+    .stat-item:hover::before {
+      width: 100%;
+    }
+
+    .stat-num {
+      font-size: 2.75rem;
+      font-weight: 800;
+      color: var(--amber);
+      line-height: 1;
+      letter-spacing: -0.04em;
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-lbl {
+      font-family: var(--font-m);
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    /* ===== SHARED SECTION STYLES ===== */
+    .section-wrap {
+      padding: 6rem 3.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      gap: 1.5rem;
+      margin-bottom: 4rem;
+    }
+
+    .section-tag {
+      font-family: var(--font-m);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--amber);
+      white-space: nowrap;
+    }
+
+    .section-h {
+      font-size: clamp(1.75rem, 3.5vw, 3rem);
+      font-weight: 800;
+      letter-spacing: -0.035em;
+      line-height: 1;
+    }
+
+    .section-rule {
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ===== EXPERTISE GRID ===== */
+    #expertise {
+      background: var(--bg);
+    }
+
+    .expertise-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--border);
+      border-left: 1px solid var(--border);
+    }
+
+    .exp-card {
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem;
+      position: relative;
+      transition: background 0.3s;
+      overflow: hidden;
+    }
+
+    .exp-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 2px;
+      height: 0;
+      background: var(--amber);
+      transition: height 0.4s ease;
+    }
+
+    .exp-card:hover {
+      background: var(--bg-card);
+    }
+
+    .exp-card:hover::before {
+      height: 100%;
+    }
+
+    .exp-icon {
+      font-size: 1.25rem;
+      margin-bottom: 1.25rem;
+      color: var(--amber);
+      opacity: 0.7;
+    }
+
+    .exp-title {
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+    }
+
+    .exp-desc {
+      font-family: var(--font-m);
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      line-height: 1.85;
+      margin-bottom: 1.5rem;
+    }
+
+    .exp-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+
+    .exp-tag {
+      font-family: var(--font-m);
+      font-size: 0.62rem;
+      letter-spacing: 0.04em;
+      padding: 0.2rem 0.55rem;
+      border: 1px solid var(--border);
+      color: var(--text-subtle);
+      transition: border-color 0.25s, color 0.25s;
+    }
+
+    .exp-card:hover .exp-tag {
+      border-color: rgba(232, 160, 69, 0.4);
+      color: var(--amber);
+    }
+
+    /* ===== PROJECTS ===== */
+    #projects {
+      background: var(--bg-card);
+    }
+
+    .built-intro {
+      font-family: var(--font-m);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-bottom: 2.5rem;
+      max-width: 60ch;
+    }
+
+    .built-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--border);
+      border-left: 1px solid var(--border);
+    }
+
+    .built-card {
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 2.75rem;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.3s;
+    }
+
+    .built-card::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--amber);
+      transition: width 0.5s ease;
+    }
+
+    .built-card:hover {
+      background: var(--bg-hover);
+    }
+
+    .built-card:hover::before {
+      width: 100%;
+    }
+
+    .built-label {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .built-desc {
+      font-family: var(--font-m);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      line-height: 1.85;
+      margin-bottom: 1.5rem;
+    }
+
+    .proj-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 2.25rem;
+    }
+
+    .proj-tag {
+      font-family: var(--font-m);
+      font-size: 0.62rem;
+      letter-spacing: 0.04em;
+      padding: 0.2rem 0.6rem;
+      background: var(--amber-dim);
+      border: 1px solid rgba(232, 160, 69, 0.25);
+      color: var(--amber);
+    }
+
+    .proj-link {
+      font-family: var(--font-m);
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: color 0.2s;
+    }
+
+    .proj-link .arrow {
+      transition: transform 0.25s;
+      display: inline-block;
+    }
+
+    .proj-card:hover .proj-link {
+      color: var(--amber);
+    }
+
+    .proj-card:hover .proj-link .arrow {
+      transform: translateX(5px);
+    }
+
+    /* ===== CONTACT ===== */
+    #contact {
+      background: var(--bg);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6rem;
+      align-items: start;
+    }
+
+    .contact-headline {
+      font-size: clamp(2.5rem, 5.5vw, 5.5rem);
+      font-weight: 800;
+      letter-spacing: -0.045em;
+      line-height: 0.9;
+      margin-bottom: 2rem;
+    }
+
+    .contact-headline .accent {
+      color: var(--amber);
+    }
+
+    .contact-sub {
+      font-family: var(--font-m);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.9;
+      max-width: 46ch;
+    }
+
+    .social-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      border: 1px solid var(--border);
+      margin-top: 1rem;
+    }
+
+    .social-item {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.2s;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .social-item:last-child {
+      border-bottom: none;
+    }
+
+    .social-item:hover {
+      background: var(--bg-card);
+    }
+
+    .social-item::after {
+      content: '→';
+      position: absolute;
+      right: 1.5rem;
+      color: var(--amber);
+      font-family: var(--font-m);
+      font-size: 0.8rem;
+      opacity: 0;
+      transform: translateX(-6px);
+      transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .social-item:hover::after {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .social-icon {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      color: var(--text-muted);
+      fill: currentColor;
+      transition: color 0.2s;
+    }
+
+    .social-item:hover .social-icon {
+      color: var(--amber);
+    }
+
+    .social-name {
+      font-family: var(--font-m);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      transition: color 0.2s;
+    }
+
+    .social-item:hover .social-name {
+      color: var(--text);
+    }
+
+    .social-handle {
+      margin-left: auto;
+      margin-right: 2rem;
+      font-family: var(--font-m);
+      font-size: 0.65rem;
+      color: var(--text-subtle);
+      transition: color 0.2s;
+    }
+
+    .social-item:hover .social-handle {
+      color: var(--text-muted);
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      padding: 1.75rem 3.5rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-brand {
+      font-family: var(--font-m);
+      font-size: 0.7rem;
+      color: var(--text-subtle);
+      letter-spacing: 0.08em;
+    }
+
+    .footer-brand strong {
+      color: var(--amber);
+      font-weight: 500;
+    }
+
+    .footer-copy {
+      font-family: var(--font-m);
+      font-size: 0.65rem;
+      color: var(--text-subtle);
+      letter-spacing: 0.06em;
+    }
+
+    /* ===== SCROLL REVEAL ===== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.75s ease, transform 0.75s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    .delay-1 {
+      transition-delay: 0.1s;
+    }
+
+    .delay-2 {
+      transition-delay: 0.2s;
+    }
+
+    .delay-3 {
+      transition-delay: 0.3s;
+    }
+
+    .delay-4 {
+      transition-delay: 0.4s;
+    }
+
+    .delay-5 {
+      transition-delay: 0.5s;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      #hero {
+        grid-template-columns: 1fr;
+        padding: 8rem 2rem 4rem;
+      }
+
+      .hero-right {
+        display: none;
+      }
+
+      .stats-strip {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .stat-item:nth-child(2) {
+        border-right: none;
+      }
+
+      .stat-item:nth-child(3) {
+        border-right: 1px solid var(--border);
+      }
+
+      .expertise-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .exp-card:nth-child(2n) {
+        border-right: none;
+      }
+
+      .built-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .proj-card:last-child {
+        border-bottom: none;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+    }
+
+    @media (max-width: 640px) {
+      #nav {
+        padding: 1.25rem 1.5rem;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      #hero {
+        padding: 7rem 1.5rem 3rem;
+      }
+
+      .section-wrap {
+        padding: 4rem 1.5rem;
+      }
+
+      .stats-strip {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .stat-item {
+        padding: 1.75rem 1.5rem;
+      }
+
+      .expertise-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .exp-card {
+        border-right: none;
+      }
+
+      .section-head {
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
+
+      .section-rule {
+        display: none;
+      }
+
+      footer {
+        flex-direction: column;
+        gap: 0.75rem;
+        text-align: center;
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="nav">
+    <div class="nav-logo"><strong>mayukh</strong>.dev</div>
+    <ul class="nav-links">
+      <li><a href="#expertise">Expertise</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <span class="hero-eyebrow-line"></span>
+        <span class="hero-eyebrow-text">Technology Lead · Knowlarity × GupShup</span>
+      </div>
+      <h1 class="hero-name">
+        Mayukh<br><span class="accent">Dev</span>
+      </h1>
+      <p class="hero-desc">
+        Architect & engineer of voice communication systems.<br>
+        Deep expertise in <em>SIP</em>, <em>WebRTC</em>, <em>FreeSWITCH</em><br>
+        and cloud-native telecom infrastructure at scale.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-fill">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-photo-row">
+        <img src="images/me1.jpg" alt="Mayukh Dev" class="hero-photo">
+        <canvas id="waveform-canvas" height="180"></canvas>
+      </div>
+      <div class="hero-terminal">
+        <div class="terminal-bar">
+          <span class="terminal-dot"></span>
+          <span class="terminal-dot"></span>
+          <span class="terminal-dot"></span>
+          <span class="terminal-title">voice-stack — bash</span>
+        </div>
+        <div class="terminal-line"><span class="prompt">›</span> <span class="cmd">whoami</span></div>
+        <div class="terminal-line"><span class="out">mayukhdev — technology-lead @ knowlarity</span></div>
+        <div class="terminal-line">&nbsp;</div>
+        <div class="terminal-line"><span class="prompt">›</span> <span class="cmd">cat expertise.txt</span></div>
+        <div class="terminal-line"><span class="out">SIP · Kamailio · RTPEngine · RTP/SRTP</span></div>
+        <div class="terminal-line"><span class="out">FreeSWITCH · mod_callcenter · mod_verto · mod_audio_fork</span>
+        </div>
+        <div class="terminal-line"><span class="out">Janus Gateway · AudioBridge · WebRTC · MCU</span></div>
+        <div class="terminal-line"><span class="out">AWS · Kubernetes · Docker · Serverless</span></div>
+        <div class="terminal-line"><span class="out">Kafka · RabbitMQ · Redis · Python</span></div>
+        <div class="terminal-line">&nbsp;</div>
+        <div class="terminal-line"><span class="prompt">›</span> <span class="cmd">uptime --years</span></div>
+        <div class="terminal-line"><span class="out">8+ years, 10+ technologies, 10K+ concurrent calls</span></div>
+        <div class="terminal-line">&nbsp;</div>
+        <div class="terminal-line"><span class="prompt">›</span> <span class="terminal-cursor"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS STRIP ===== -->
+  <div class="stats-strip">
+    <div class="stat-item reveal">
+      <div class="stat-num">8+</div>
+      <div class="stat-lbl">Years in Industry</div>
+    </div>
+    <div class="stat-item reveal delay-1">
+      <div class="stat-num">10+</div>
+      <div class="stat-lbl">Technologies</div>
+    </div>
+    <div class="stat-item reveal delay-2">
+      <div class="stat-num">10K+</div>
+      <div class="stat-lbl">Concurrent Calls</div>
+    </div>
+    <div class="stat-item reveal delay-3">
+      <div class="stat-num">8</div>
+      <div class="stat-lbl">Engineers Led</div>
+    </div>
+  </div>
+
+  <!-- ===== EXPERTISE ===== -->
+  <section id="expertise" class="section-wrap">
+    <div class="section-head reveal">
+      <span class="section-tag">01 — Expertise</span>
+      <h2 class="section-h">Core Disciplines</h2>
+      <span class="section-rule"></span>
+    </div>
+    <div class="expertise-grid">
+      <div class="exp-card reveal">
+        <div class="exp-icon">◈</div>
+        <h3 class="exp-title">Voice & SIP</h3>
+        <p class="exp-desc">Deep expertise in SIP protocol stacks and real-time VoIP. Built and deployed across 2
+          production projects spanning AWS cloud and on-premises infrastructure.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">SIP</span>
+          <span class="exp-tag">VoIP</span>
+          <span class="exp-tag">RTP/SRTP</span>
+          <span class="exp-tag">Kamailio</span>
+          <span class="exp-tag">RTPEngine</span>
+          <span class="exp-tag">AWS</span>
+          <span class="exp-tag">On-Prem</span>
+        </div>
+      </div>
+      <div class="exp-card reveal delay-1">
+        <div class="exp-icon">◫</div>
+        <h3 class="exp-title">WebRTC & Media</h3>
+        <p class="exp-desc">Browser-native real-time communication using Janus Gateway in MCU mode. Integrated the SIP
+          plugin for PSTN bridging and AudioBridge plugin for multi-party conferencing.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">WebRTC</span>
+          <span class="exp-tag">Janus Gateway</span>
+          <span class="exp-tag">SIP Plugin</span>
+          <span class="exp-tag">AudioBridge</span>
+          <span class="exp-tag">MCU</span>
+          <span class="exp-tag">DTLS</span>
+          <span class="exp-tag">ICE</span>
+        </div>
+      </div>
+      <div class="exp-card reveal delay-2">
+        <div class="exp-icon">◬</div>
+        <h3 class="exp-title">FreeSWITCH</h3>
+        <p class="exp-desc">Custom builds leveraging mod_callcenter, mod_verto, and mod_audio_fork alongside core
+          dialplan engineering and HA deployment. Handling 10K+ concurrent sessions in production.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">FreeSWITCH</span>
+          <span class="exp-tag">mod_callcenter</span>
+          <span class="exp-tag">mod_verto</span>
+          <span class="exp-tag">mod_audio_fork</span>
+          <span class="exp-tag">mod_sofia</span>
+          <span class="exp-tag">ESL</span>
+          <span class="exp-tag">Dialplan</span>
+          <span class="exp-tag">HA Setup</span>
+        </div>
+      </div>
+      <div class="exp-card reveal">
+        <div class="exp-icon">◰</div>
+        <h3 class="exp-title">Cloud Architecture</h3>
+        <p class="exp-desc">Comfortable designing end-to-end system architecture on AWS — from SIP infrastructure and
+          REST APIs to serverless pipelines. Focused on scalable, production-ready design over implementation specifics.
+        </p>
+        <div class="exp-tags">
+          <span class="exp-tag">AWS</span>
+          <span class="exp-tag">Kubernetes</span>
+          <span class="exp-tag">Docker</span>
+          <span class="exp-tag">Serverless</span>
+          <span class="exp-tag">REST APIs</span>
+          <span class="exp-tag">SIP Infra</span>
+        </div>
+      </div>
+      <div class="exp-card reveal delay-1">
+        <div class="exp-icon">◎</div>
+        <h3 class="exp-title">Messaging & Streams</h3>
+        <p class="exp-desc">Event-driven architecture with high-throughput messaging pipelines. Building resilient
+          real-time systems for telecom data at volume.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Kafka</span>
+          <span class="exp-tag">RabbitMQ</span>
+          <span class="exp-tag">Redis</span>
+          <span class="exp-tag">Python</span>
+        </div>
+      </div>
+      <div class="exp-card reveal delay-2">
+        <div class="exp-icon">◷</div>
+        <h3 class="exp-title">Technical Leadership</h3>
+        <p class="exp-desc">Leading cross-functional engineering teams through architecture decisions, sprint planning,
+          and mentoring in high-growth startup environments. Strong communicator across technical and non-technical
+          stakeholders.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Team Lead</span>
+          <span class="exp-tag">Architecture</span>
+          <span class="exp-tag">POC / R&D</span>
+          <span class="exp-tag">Mentoring</span>
+          <span class="exp-tag">Agile</span>
+          <span class="exp-tag">Communication</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SELECTED WORK ===== -->
+  <section id="projects" class="section-wrap">
+    <div class="section-head reveal">
+      <span class="section-tag">02 — Work</span>
+      <h2 class="section-h">Selected Work</h2>
+      <span class="section-rule"></span>
+    </div>
+    <div class="built-grid">
+      <div class="built-card reveal">
+        <div class="built-label">Call Center Platforms</div>
+        <p class="built-desc">Designed and led the build of enterprise call center systems with FreeSWITCH at the core —
+          covering ACD queuing, IVR flows, WebRTC agent interfaces, real-time dashboards, and CDR pipelines. Handling
+          10K+ concurrent calls in production.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">FreeSWITCH</span>
+          <span class="proj-tag">mod_callcenter</span>
+          <span class="proj-tag">WebRTC</span>
+          <span class="proj-tag">IVR</span>
+          <span class="proj-tag">Kafka</span>
+        </div>
+      </div>
+      <div class="built-card reveal delay-1">
+        <div class="built-label">WebRTC Communication Systems</div>
+        <p class="built-desc">Architected multi-party voice and conferencing platforms using Janus Gateway in MCU mode —
+          integrating the SIP plugin for PSTN bridging and AudioBridge for conference rooms, deployed on AWS with
+          Kubernetes.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">Janus Gateway</span>
+          <span class="proj-tag">AudioBridge</span>
+          <span class="proj-tag">SIP Plugin</span>
+          <span class="proj-tag">AWS</span>
+          <span class="proj-tag">Kubernetes</span>
+        </div>
+      </div>
+      <div class="built-card reveal delay-2">
+        <div class="built-label">SIP Infrastructure & Routing</div>
+        <p class="built-desc">Built SIP trunking and routing layers using Kamailio and RTPEngine across both AWS and
+          on-premises environments — handling failover, load balancing, and media proxying for high-availability voice
+          networks.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">Kamailio</span>
+          <span class="proj-tag">RTPEngine</span>
+          <span class="proj-tag">SIP Trunking</span>
+          <span class="proj-tag">HA</span>
+          <span class="proj-tag">On-Prem</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section-wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="section-tag" style="margin-bottom: 2rem;">03 — Contact</div>
+        <h2 class="contact-headline">
+          Let's build<br>something<br><span class="accent">great.</span>
+        </h2>
+        <p class="contact-sub" style="margin-top: 2rem;">
+          Open to discussing voice communication projects, technical challenges,
+          and collaboration opportunities. I'm especially interested in
+          innovative problems at the intersection of telecom and cloud —
+          particularly Voice AI, automation, and building high-performing teams.
+        </p>
+      </div>
+      <div class="reveal delay-2">
+        <div class="social-list">
+          <a href="https://www.linkedin.com/in/mayukhdev/" class="social-item" target="_blank" rel="noopener">
+            <svg class="social-icon" viewBox="0 0 24 24">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+            <span class="social-name">LinkedIn</span>
+            <span class="social-handle">/in/mayukhdev</span>
+          </a>
+          <a href="https://github.com/mayukhdev" class="social-item" target="_blank" rel="noopener">
+            <svg class="social-icon" viewBox="0 0 24 24">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+            </svg>
+            <span class="social-name">GitHub</span>
+            <span class="social-handle">@mayukhdev</span>
+          </a>
+          <a href="https://www.instagram.com/mayukhdev/" class="social-item" target="_blank" rel="noopener">
+            <svg class="social-icon" viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+            <span class="social-name">Instagram</span>
+            <span class="social-handle">@mayukhdev</span>
+          </a>
+          <a href="https://www.facebook.com/mayukhdev" class="social-item" target="_blank" rel="noopener">
+            <svg class="social-icon" viewBox="0 0 24 24">
+              <path
+                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+            <span class="social-name">Facebook</span>
+            <span class="social-handle">/mayukhdev</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-brand"><strong>mayukh</strong>.dev · Technology Lead & Voice Communication Expert</div>
+    <div class="footer-copy">© 2026 Mayukh Dev. All rights reserved.</div>
+  </footer>
+
+  <script>
+    // ===== NAV SCROLL =====
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    // ===== WAVEFORM CANVAS =====
+    (function () {
+      const canvas = document.getElementById('waveform-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      const AMBER = '#E8A045';
+
+      function resize() {
+        canvas.width = canvas.offsetWidth;
+        canvas.height = parseInt(canvas.getAttribute('height')) || 180;
+      }
+      resize();
+      window.addEventListener('resize', resize, { passive: true });
+
+      const waves = [
+        { freq: 1.8, amp: 42, phase: 0, speed: 0.022, alpha: 0.9, lw: 1.8 },
+        { freq: 3.2, amp: 22, phase: 1.2, speed: 0.038, alpha: 0.45, lw: 1.2 },
+        { freq: 0.9, amp: 58, phase: 2.5, speed: 0.012, alpha: 0.18, lw: 1 },
+        { freq: 5.0, amp: 12, phase: 0.7, speed: 0.055, alpha: 0.3, lw: 0.8 },
+      ];
+
+      let frame = 0;
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const cy = canvas.height / 2;
+        const w = canvas.width;
+
+        waves.forEach(wave => {
+          ctx.beginPath();
+          ctx.strokeStyle = AMBER;
+          ctx.globalAlpha = wave.alpha;
+          ctx.lineWidth = wave.lw;
+          ctx.lineJoin = 'round';
+
+          for (let x = 0; x <= w; x += 1.5) {
+            const t = (x / w) * Math.PI * 2 * wave.freq + wave.phase + frame * wave.speed;
+            const y = cy + Math.sin(t) * wave.amp;
+            x === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+          }
+          ctx.stroke();
+        });
+        ctx.globalAlpha = 1;
+        frame++;
+        requestAnimationFrame(draw);
+      }
+      draw();
+    })();
+
+    // ===== SCROLL REVEAL =====
+    (function () {
+      const els = document.querySelectorAll('.reveal');
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: 0.08 });
+      els.forEach(el => io.observe(el));
+    })();
+
+    // ===== HERO ENTRANCE =====
+    (function () {
+      const left = document.querySelector('.hero-left');
+      if (!left) return;
+      left.style.cssText = 'opacity:0;transform:translateY(32px);transition:opacity 1s ease,transform 1s ease;';
+      requestAnimationFrame(() => {
+        setTimeout(() => {
+          left.style.opacity = '1';
+          left.style.transform = 'none';
+        }, 200);
+      });
+    })();
+  </script>
+</body>
+
 </html>
